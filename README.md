@@ -170,3 +170,29 @@ doi: [DOI_Number].
 Lim S, Nycklemoe ME, Jacobson DN, et al.  
 NeuroNetFlow: a MATLAB-based software toolbox for analyzing flow dynamics based on phase-contrast MRI.  
 *SoftwareX*. 2026;[Volume]:[Article Number]. doi:[DOI_Number].
+
+
+
+## Contact & Contribution
+
+### Contact
+For questions, bug reports, or feature requests, please use the GitHub Issues page:
+- https://github.com/SeokbeenLim/NeuroNetFlow/issues
+
+Project maintainer:  
+**Seokbeen Lim**  
+Mayo Clinic
+
+---
+
+### Contribution
+Contributions from the research community are welcome.
+
+- Please submit bug reports and feature requests via GitHub Issues.
+- Code contributions can be made through pull requests.
+- When contributing, please ensure that new features are well-documented and compatible with the existing MATLAB App Designer architecture.
+
+---
+
+### Future Extensions
+NeuroNetFlow is currently validated on Philips PC-MRI data. Extensions to support additional MRI vendors and advanced analysis modules are expected to be developed through community-driven contributions.
