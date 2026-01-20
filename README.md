@@ -131,3 +131,42 @@ All dependencies were validated using MATLAB Dependency Analyzer.
 | Display | 1920 × 1080 (Full HD) or higher recommended |
 | Imaging Data | NIfTI (.nii) magnitude and phase images from Philips scanners |
 | Physiological Data | Philips SCANPHYSLOG (.log) files |
+
+
+## License
+
+This project is released under the **MIT License**.
+
+Copyright (c) 2026  
+**Seokbeen Lim / Mayo Clinic**
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+See the full license text in the [`LICENSE`](LICENSE) file.
+
+
+## Citation
+
+If you use **NeuroNetFlow** in your research, please cite the following publication.
+
+### APA style
+Lim, S., Nycklemoe, M. E., Jacobson, D. N., Kim, D. C., Rossman, P. J., Karki, P.,  
+Lowe, V. J., Cogswell, P. M., & Min, P. H. (2026).  
+*NeuroNetFlow: A MATLAB-based software toolbox for analyzing flow dynamics based on phase-contrast MRI*.  
+SoftwareX, [Volume], [Article Number]. https://doi.org/[DOI_Number]
+
+### IEEE style
+S. Lim *et al.*,  
+"NeuroNetFlow: A MATLAB-based software toolbox for analyzing flow dynamics based on phase-contrast MRI,"  
+*SoftwareX*, vol. [Volume], Art. no. [Article Number], Jan. 2026.  
+doi: [DOI_Number].
+
+### JAMDA / AMA style
+Lim S, Nycklemoe ME, Jacobson DN, et al.  
+NeuroNetFlow: a MATLAB-based software toolbox for analyzing flow dynamics based on phase-contrast MRI.  
+*SoftwareX*. 2026;[Volume]:[Article Number]. doi:[DOI_Number].
