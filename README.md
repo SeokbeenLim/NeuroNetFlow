@@ -54,15 +54,15 @@ NeuroNetFlow is specifically designed, validated, and tested using **phase-contr
   - Time-stamped physiological recordings synchronized with the MRI acquisition
   - Parsed using a dedicated Philips log reader implemented within NeuroNetFlow
 
-
-### Module 1: Image Processing
+### Processing features
+**Module 1: Image Processing**
 - PC-MRI Input Handling
 - Automated CSF Segmentation
 - Interactive ROI Refinement
 - Background Phase Calibration
 - Physiological Signal Import and Synchronization
 
-### Module 2: Signal Analysis
+**Module 2: Signal Analysis**
 - Respiratory Signal Processing
 - CSF Dynamics Quantification
 - Spectral Decomposition of CSF Signals
@@ -70,15 +70,15 @@ NeuroNetFlow is specifically designed, validated, and tested using **phase-contr
 - Integrated Multi-Signal Visualization
 - Breathing-Cycle Normalization
 
-## Output and Exported Features
+### Output and Exported Features
 
 NeuroNetFlow exports all processed signals and quantitative features in formats optimized for downstream statistical analysis. Outputs can be saved as MATLAB `.mat` files for full signal access and as structured `.xlsx` tables for group-level analysis across participants.
 
-### Output Formats
+**Output Formats**
 - MATLAB `.mat`: Preprocessed signals, intermediate results, and extracted features
 - Excel `.xlsx`: Participant-wise feature tables for statistical analysis
 
-### Feature Categories
+**Feature Categories**
 
 - A. Temporal CSF Velocity Features (PC-MRI; Temporal Domain)
 - B. Temporal CSF Flow-Rate Features (Velocity → Flow Rate)
