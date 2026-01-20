@@ -9,7 +9,23 @@ Cerebrospinal fluid plays a critical role in maintaining central nervous system 
 
 Recent advances in velocity-encoded MRI enable the direct quantification of both cardiac and respiratory components of CSF motion. However, comprehensive analysis remains challenging due to the limited availability of open-source tools that integrate PC-MRI data with physiological recordings in an accessible graphical environment. NeuroNetFlow addresses this gap by providing a modular, user-friendly GUI that substantially reduces manual coding effort while ensuring reproducibility and transparency.
 
-## 2. Pipeline Overview
+
+## 2. Installation
+
+### Step 1: Download
+```bash
+git clone https://github.com/SeokbeenLim/NeuroNetFlow.git
+
+### Step 2: Add MATLAB Path
+addpath(genpath(pwd));
+savepath;
+
+### Step 3: Launch
+Breathing_PCMRI_GUI_Ver1
+```
+
+
+## 3. Pipeline Overview
 NeuroNetFlow follows a predefined yet flexible analysis pipeline:
 
 **Input**
@@ -28,7 +44,7 @@ NeuroNetFlow follows a predefined yet flexible analysis pipeline:
 - CSF volume displacement (ml)
 - CSF net flow
 
-## 3. Key Features
+## 4. Key Features
 
 - GUI-based integrated analysis of PC-MRI and physiological data
 - Semi-automatic CSF ROI segmentation with interactive mask editing
@@ -38,7 +54,7 @@ NeuroNetFlow follows a predefined yet flexible analysis pipeline:
 - Modular App Designer architecture supporting extensibility
 
 
-## 4. Software Architecture
+## 5. Software Architecture
 
 NeuroNetFlow is built on a modular MATLAB App Designer architecture centered around a main control interface.
 
