@@ -60,6 +60,8 @@ NeuroNetFlow follows a predefined yet flexible analysis pipeline:
 
 NeuroNetFlow is built on a modular MATLAB App Designer architecture centered around a main control interface.
 
+![NeuroNetFlow software architecture](figures/Fig_Software_Structure.png)
+
 ### Main Control Interface
 - **Breathing_PCMRI_GUI_Ver1.mlapp**  
   Central hub for data loading, parameter configuration, and execution of CSF analysis workflows.
