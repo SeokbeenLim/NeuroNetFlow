@@ -30,21 +30,63 @@ Breathing_PCMRI_GUI_Ver1
 ## 3. Pipeline Overview
 NeuroNetFlow follows a predefined yet flexible analysis pipeline:
 
-**Input**
-- Phase-contrast MRI (magnitude and phase images)
-- Physiological recordings (respiration belt, PPG, system markers)
+### Input
 
-**Processing**
-- Semi-automatic CSF ROI segmentation
-- Static tissue-based velocity calibration
-- Cardiac- and respiratory-specific CSF signal isolation
-- Temporal synchronization with physiological signals
+NeuroNetFlow is specifically designed, validated, and tested using **phase-contrast MRI (PC-MRI) data acquired from Philips MRI scanners**. At the current stage, compatibility is limited to Philips data formats.
 
-**Output**
-- CSF velocity waveforms
-- CSF flow rate (ml/s)
-- CSF volume displacement (ml)
-- CSF net flow
+**Imaging Data**
+- Format: NIfTI (`.nii`)
+- Required files:
+  - Magnitude image (`.nii`)
+  - Phase image (`.nii`)
+- Acquisition: Phase-contrast MRI (PC-MRI) from Philips scanners
+- Notes:
+  - The software assumes Philips-specific phase scaling and metadata conventions.
+  - Data from other vendors (e.g., Siemens, GE) have **not been tested** and are not currently supported.
+
+**Physiological Data**
+- Format: Philips physiology log file (`.log`, SCANPHYSLOG)
+- Required signals:
+  - Respiratory belt signal
+  - Photoplethysmography (PPG)
+  - System marker channels
+- Characteristics:
+  - Time-stamped physiological recordings synchronized with the MRI acquisition
+  - Parsed using a dedicated Philips log reader implemented within NeuroNetFlow
+
+
+### Module 1: Image Processing
+- PC-MRI Input Handling
+- Automated CSF Segmentation
+- Interactive ROI Refinement
+- Background Phase Calibration
+- Physiological Signal Import and Synchronization
+
+### Module 2: Signal Analysis
+- Respiratory Signal Processing
+- CSF Dynamics Quantification
+- Spectral Decomposition of CSF Signals
+- Cardiac Signal Processing
+- Integrated Multi-Signal Visualization
+- Breathing-Cycle Normalization
+
+## Output and Exported Features
+
+NeuroNetFlow exports all processed signals and quantitative features in formats optimized for downstream statistical analysis. Outputs can be saved as MATLAB `.mat` files for full signal access and as structured `.xlsx` tables for group-level analysis across participants.
+
+### Output Formats
+- MATLAB `.mat`: Preprocessed signals, intermediate results, and extracted features
+- Excel `.xlsx`: Participant-wise feature tables for statistical analysis
+
+### Feature Categories
+
+- A. Temporal CSF Velocity Features (PC-MRI; Temporal Domain)
+- B. Temporal CSF Flow-Rate Features (Velocity → Flow Rate)
+- C. Respiration-Phase–Resolved Integrated Flow Features
+- D. Volume Displacement Stability and Detrending Diagnostics
+- E. Spectral CSF Features (Respiratory and Cardiac Bands)
+- F. Respiratory Timing Features
+- G. Breathing-Cycle–Normalized Features (0–100% Cycle)
 
 ## 4. Key Features
 
