@@ -15,12 +15,14 @@ Recent advances in velocity-encoded MRI enable the direct quantification of both
 ### Step 1: Download
 ```bash
 git clone https://github.com/SeokbeenLim/NeuroNetFlow.git
-
+```
 ### Step 2: Add MATLAB Path
+```bash
 addpath(genpath(pwd));
 savepath;
-
+```
 ### Step 3: Launch
+```bash
 Breathing_PCMRI_GUI_Ver1
 ```
 
