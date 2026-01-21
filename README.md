@@ -27,6 +27,23 @@ Breathing_PCMRI_GUI_Ver1
 ```
 
 
+## Usage Resources
+
+To help users quickly become familiar with NeuroNetFlow, the following resources are provided.
+
+### Video Tutorial
+A step-by-step video walkthrough demonstrating the full analysis workflow, including data loading, ROI definition, calibration, signal analysis, and feature export:
+
+- YouTube tutorial: https://www.youtube.com/XXXXXXXXXXX
+
+### User Instruction Documentation
+A detailed user manual describing GUI components, processing modules, parameter settings, and example workflows:
+
+- PDF documentation: `Instruction/Instruction_document_v1.pdf`
+
+
+
+
 ## 3. Pipeline Overview
 NeuroNetFlow follows a predefined yet flexible analysis pipeline:
 
