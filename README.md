@@ -144,7 +144,7 @@ All dependencies were validated using MATLAB Dependency Analyzer.
 | Operating System | macOS (Apple Silicon, Sequoia 15.7.2 or later)<br>Windows 10 / 11 |
 | Software | MATLAB R2023a or later |
 | Hardware – Memory | Minimum 8 GB RAM (16 GB recommended) |
-| Hardware – CPU | Intel Core i7 or later; Apple M2/M3 series |
+| Hardware – CPU | Intel Core i5 or later; Apple M2/M3 series |
 | Display | 1920 × 1080 (Full HD) or higher recommended |
 | Imaging Data | NIfTI (.nii) magnitude and phase images from Philips scanners |
 | Physiological Data | Philips SCANPHYSLOG (.log) files |
