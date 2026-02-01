@@ -32,7 +32,8 @@ Breathing_PCMRI_GUI_Ver1
 To help users quickly become familiar with NeuroNetFlow, the following resources are provided.
 
 ### Video Tutorial
-A step-by-step video walkthrough demonstrating the full analysis workflow, including data loading, ROI definition, calibration, signal analysis, and feature export:
+A demonstration video showcasing the end-to-end NeuroNetFlow workflow (data loading, ROI definition, calibration, signal analysis, and feature export). 
+This video is intended as a visual walkthrough of the GUI and typical processing steps; for complete, detailed instructions and guidance, please refer to the user manual below.
 
 - YouTube tutorial: https://www.youtube.com/watch?v=kESXfzZ96xs
 
