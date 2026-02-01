@@ -34,7 +34,7 @@ To help users quickly become familiar with NeuroNetFlow, the following resources
 ### Video Tutorial
 A step-by-step video walkthrough demonstrating the full analysis workflow, including data loading, ROI definition, calibration, signal analysis, and feature export:
 
-- YouTube tutorial: https://www.youtube.com/XXXXXXXXXXX
+- YouTube tutorial: https://www.youtube.com/watch?v=kESXfzZ96xs
 
 ### User Instruction Documentation
 A detailed user manual describing GUI components, processing modules, parameter settings, and example workflows:
