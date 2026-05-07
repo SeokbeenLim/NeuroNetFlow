@@ -172,22 +172,7 @@ See the full license text in the [`LICENSE`](LICENSE) file.
 
 If you use **NeuroNetFlow** in your research, please cite the following publication.
 
-### APA style
-Lim, S., Nycklemoe, M. E., Jacobson, D. N., Kim, D. C., Rossman, P. J., Karki, P.,  
-Lowe, V. J., Cogswell, P. M., & Min, P. H. (2026).  
-*NeuroNetFlow: A MATLAB-based software toolbox for analyzing flow dynamics based on phase-contrast MRI*.  
-SoftwareX, [Volume], [Article Number]. https://doi.org/[DOI_Number]
-
-### IEEE style
-S. Lim *et al.*,  
-"NeuroNetFlow: A MATLAB-based software toolbox for analyzing flow dynamics based on phase-contrast MRI,"  
-*SoftwareX*, vol. [Volume], Art. no. [Article Number], Jan. 2026.  
-doi: [DOI_Number].
-
-### JAMDA / AMA style
-Lim S, Nycklemoe ME, Jacobson DN, et al.  
-NeuroNetFlow: a MATLAB-based software toolbox for analyzing flow dynamics based on phase-contrast MRI.  
-*SoftwareX*. 2026;[Volume]:[Article Number]. doi:[DOI_Number].
+... preparing
 
 
 
